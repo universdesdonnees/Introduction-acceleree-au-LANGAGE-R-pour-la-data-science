@@ -1,4 +1,3 @@
-
 # # # # # # # # # # # # # # # # # # # # # # # # # # 
 # 2 - Les bases de la programmation R
 # # # # # # # # # # # # # # # # # # # # # # # # # # 
@@ -268,17 +267,23 @@ DF$Fumeur                       # affiche les éléments de la variable Fumeur
 ### Importer des données externes
 ### 
 
-#  !!!!! ATTENTION 
-# l'execution ne fonctionnera pas pour cette partie 
+
 
 # 1- données dans un fichier CSV
 people <- read.csv(file = "Data/people-100.csv", header = TRUE)
-people
+head(people)
+View(people)
 
 # 2- données dans un fichier excel
 library(readxl)
-people <- read_excel(file = "Data/people-100.csv", header = TRUE, sheet = 1)
-people
+Experience_Salaire <- read_excel("Data/Experience_Salaire.xls", sheet = 1)
+head(Experience_Salaire)
+View(Experience_Salaire)
+
+#  !!!!! ATTENTION 
+# l'execution ne fonctionnera pas pour 
+# cette partie car à moins que vous ayez une base
+# installée sur votre ordinateur
 
 # 3- Données dans une table PostgreSQL
 
@@ -315,3 +320,4 @@ reponse <- GET("https://api.example.com/data", accept("application/json"))
 
 # Utilisez la fonction content pour stocker les données dans l’objet data
 data <- content(reponse)
+
