@@ -1,5 +1,5 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # 
-# Introduction au machine learning
+# 4 - Introduction au machine learning
 # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
 # 1 - Modele regression linéaire simple et multiple
