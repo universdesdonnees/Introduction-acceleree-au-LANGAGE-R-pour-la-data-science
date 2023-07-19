@@ -1,8 +1,9 @@
 # Introduction-acceleree-au-LANGAGE-R-pour-la-data-science
 
 Ce dépôt contient les exemples de code contenus dans le livre **Introduction accélérée au 
-LANGAGE R pour la data science**
-Ce livre propose des explications claires et des exemples concrets pour aider les lecteurs et les lectrices
+LANGAGE R pour la data science**. 
+
+Ce livre propose des explications simples et des exemples concrets pour aider les lecteurs et les lectrices
 à comprendre les concepts de base de la programmation R.
 
 Alors, si vous êtes ici et que vous êtes l'heureux ou l'heureuse propriétaire du livre
