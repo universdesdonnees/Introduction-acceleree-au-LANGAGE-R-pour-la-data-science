@@ -4,7 +4,7 @@
 
 # 1 - Boucles
 
-# # # # # # # #  FOR  # # # # # # # # 
+# FOR  
 for(i in 1:5){
   print(i)
 }
@@ -15,7 +15,8 @@ for(i in 1:length(Vect)){
   print(Vect[i])
 }
 
-# # # # # # # #  WHILE  # # # # # # # # 
+# WHILE  
+
 i <- 1
 
 while(i < 10){
@@ -60,6 +61,19 @@ est_pair <- function(nombre) {
 est_pair(4) 
 # renvoie FALSE
 est_pair(3) 
+
+Vect <- c(10,3,99,65,43,9,78,1)
+
+Nombre_pair <- function(vec) {
+  nombre <- c() # Création d’un vecteur vide
+  for(i in 1:length(vec)){
+    if (vec[i] %% 2 == 0) {
+      nombre <- c(nombre, vec[i]) # actualisation du vecteur vide
+    }
+  }
+  return(nombre)
+}
+Nombre_pair(Vect) # affiche 10 et 78
 
 
 # 3 - Famille apply
