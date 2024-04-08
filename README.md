@@ -12,4 +12,3 @@ Alors, si vous êtes ici et que vous êtes l'heureux ou l'heureuse propriétaire
 Vous trouverez directement les exemples de code utilisés dans le livre sous forme de fichiers **.R** dans ce dépôt. 
 Pour télécharger l'ensemble des scripts, cliquez sur le bouton **code** et ensuite sélectionnez **zip**.
 
-N'hésitez pas à me contacter par mail (mcherifaluron@universdesdonnees.fr) si vous avez des questions ou des commentaires sur les exemples de code. Je serais ravis de vous aider !
